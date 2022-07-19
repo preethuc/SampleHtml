@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Field and validation</title>
+  </head>
+  <body>
+    <h1>Form using html5 tags</h1>
+    <form action="#">
+      <fieldset>
+        <legend>Email <br /></legend>
+        <!-- email field -->
+        <input type="email" name="email_id" id="email_id" required />
+      </fieldset>
+      <fieldset>
+        <legend>Age <br /></legend>
+        <!-- number field -->
+        <input type="number" name="age" id="age" required min="10" max="20" />
+      </fieldset>
+      <!-- date of birth date picker field -->
+      <p>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob" />
+      </p>
+      <!-- Range field -->
+      <p>
+        <label for="price">Price Range</label><br />
+        <input
+          type="range"
+          name="price"
+          id="price"
+          min="1"
+          max="1000"
+          step="20"
+        />
+      </p>
+      <!-- Url -->
+      <p>
+        <label for="website">URL:</label><br />
+        <input type="url" name="website" id="website" />
+      </p>
+      <!-- time -->
+      <p>
+        <label for="time">Time:</label><br />
+        <input type="Time" name="time" id="time" />
+      </p>
+      <!-- search -->
+      <p>
+        <label for="job_search">Job Search</label><br />
+        <input type="search" name="job_search" id="job_search" />
+      </p>
+      <!-- week -->
+      <p>
+        <label for="vweek">Vacation Week</label><br />
+        <input type="week" name="vweek" id="vweek" />
+      </p>
+      <!-- submit -->
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>

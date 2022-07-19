@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>Form Task</title>
+  </head>
+  <body>
+    <h1>Form Basics</h1>
+    <form action="#">
+      <p>
+        Username: <br />
+        <input
+          type="text"
+          placeholder="Username"
+          name="username"
+          size="10"
+          maxlength="12"
+        />
+      </p>
+      <p>
+        Password: <br />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          maxlength="12"
+          size="10"
+        />
+      </p>
+      <!-- radio -->
+      <fieldset>
+        I want to learn <br />
+        <input type="radio" name="req" id="html" value="html" />
+        <label for="html">Html</label>
+        <input type="radio" name="req" id="css" value="css" />
+        <label for="css">Css</label>
+        <input type="radio" name="req" id="js" value="js" />
+        <label for="js">JavaScript</label>
+      </fieldset>
+      <br />
+      <!-- checkbox -->
+      <!-- fieldset -->
+      <!-- legend -->
+      <fieldset>
+        <legend>My Hobbies</legend>
+        <br />
+        <input type="checkbox" name="Hobbies[]" value="cooking" />Cooking
+        <input type="checkbox" name="Hobbies[]" value="singing" />Singing
+        <input type="checkbox" name="Hobbies[]" value="music" />Hearing Music
+        <input type="checkbox" name="Hobbies[]" value="story" />Hearing story
+        <input type="checkbox" name="Hobbies[]" value="movie" />watching Movie
+      </fieldset>
+      <!-- textarea -->
+      <p>
+        Message <br />
+        <textarea
+          name="command"
+          placeholder="type ur msg"
+          cols="30"
+          rows="5"
+        ></textarea>
+      </p>
+      <!-- submit button -->
+      <p><input type="submit" name="submit" value="send" /></p>
+    </form>
+  </body>
+</html>
